@@ -1,0 +1,17 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.toastContainer {
+  display: flex;
+}
+button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background-color: deepskyblue;
+  border: none;
+  border-radius: 5px;
+}

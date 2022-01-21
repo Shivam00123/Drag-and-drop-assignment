@@ -1,0 +1,23 @@
+.dragDiv {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeIn 1000ms linear 1;
+}
+.TagDiv {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
